@@ -24,9 +24,9 @@ while(token1!= NULL || token2 != NULL){
     token1=strtok(NULL,".");
     token2=strtok(NULL,".");
     return 0;
-}
-
+ }
 }
 int main(){
 printf("%d\n",version("1.01","1.001"));
+printf("%d\n",version("0.1","1.1"));
 }

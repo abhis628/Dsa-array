@@ -27,4 +27,5 @@ bool validString(char*s){
 
 int main(){
 printf("%d\n",validString("(*)"));
+printf("%d\n",validString("(*)()"));
 }
