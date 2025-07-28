@@ -12,7 +12,6 @@ int k=m+n-1;
         arr1[k--]=arr2[j--];
     }
  }
-
 // while(j>=0){
 //     arr1[k--]=arr2[j--];
 // }
@@ -41,6 +40,5 @@ printf("merge array");
 for(int i=0;i<m+n;i++){
     printf("%d",arr1[i]);
 }
-
     return 0;
 }
